@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+body {
+    background: url("../img/bg2.jpg") no-repeat center center fixed transparent;
+    backdrop-filter: blur(5px);
+    background-size: cover;
+  }
+
+.navbar-custom {
+    background-color: #8b0000;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: #8b0000;
+}
