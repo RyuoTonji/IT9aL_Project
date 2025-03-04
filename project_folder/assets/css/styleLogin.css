@@ -46,7 +46,16 @@ body {
   right: 50%;
 }
 
+.form-box.login {
+  background: url(../img/regiter.jpg) no-repeat center center fixed transparent;
+  background-size: cover;
+  backdrop-filter: blur(50px);
+}
+
 .form-box.register {
+  background: url(../img/login.jpg) no-repeat center center fixed transparent;
+  background-size: cover;
+  backdrop-filter: blur(50px);
   visibility: hidden;
 }
 
