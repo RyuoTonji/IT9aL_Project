@@ -35,7 +35,7 @@
             <a class="nav-link" href="settings.html">Settings</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="settings.html">Logout</a>
+            <a class="nav-link" id="logout-button" href="#">Logout</a>
           </li>
         </ul>
       </div>
@@ -108,6 +108,14 @@
   </div>
 
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script>
+    // Protect this page
+    protectPage();
+
+    // Handle logout
+    document.getElementById('logout-button').addEventListener('click', logout);
+  </script>
 </body>
 
 </html>

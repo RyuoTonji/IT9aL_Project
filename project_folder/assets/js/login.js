@@ -69,10 +69,11 @@ function login() {
   const user = users.find(user => user.username === username && user.password === password);
 
   if (user) {
-    window.location.href = "../project_folder/index.html";
     alert('Login successful');
+    window.location.href = "../project_folder/index.html";
     document.getElementById('login-username').value = '';
     document.getElementById('login-password').value = '';
+    localStorage.setItem('isLoggedIn', 'true');
   } else {
     alert('Incorrect username or password');
   }
