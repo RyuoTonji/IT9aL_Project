@@ -128,7 +128,7 @@ async function switchPane() {
 
 async function goToIndex() {
   setTimeout(() => {
-    window.location.href = "../project_folder/index.html";
+    window.location.href = "index.html";
     document.getElementById('infotext-login').style.color = 'red';
   }, 3000);
 }
