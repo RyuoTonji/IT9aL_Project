@@ -70,7 +70,7 @@ function login() {
 
   if (user) {
     alert('Login successful');
-    window.location.href = "../project_folder/index.html";
+    window.location.href = "index.html";
     document.getElementById('login-username').value = '';
     document.getElementById('login-password').value = '';
     localStorage.setItem('isLoggedIn', 'true');
